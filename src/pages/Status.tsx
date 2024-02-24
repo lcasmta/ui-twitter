@@ -28,7 +28,7 @@ export function Status() {
       <Separator />
       <form onSubmit={createNewAnswer} className="answer-tweet-form">
         <label htmlFor="tweet">
-          <img src="https://picsum.photos/200" alt="Lucas Mota" />
+          <img src="https://avatars.githubusercontent.com/u/94457205?v=4" alt="Lucas Mota" />
           <textarea id="tweet"
             placeholder="Tweet Your Answer"
             value={newAnswer}

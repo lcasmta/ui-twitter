@@ -24,7 +24,7 @@ export function Timeline() {
       <Header title="Home" />
       <form onSubmit={createNewTweet} className="new-tweet-form">
         <label htmlFor="tweet">
-          <img src="https://picsum.photos/200" alt="Lucas Mota" />
+          <img src="https://avatars.githubusercontent.com/u/94457205?v=4" alt="Lucas Mota" />
           <textarea id="tweet"
             value={newTweet}
             onChange={(event) => {
